@@ -19,9 +19,9 @@ He hecho distintas pruebas y observado el resultado a distintos tiempos, calcula
 
 
 ## Detalles 
-Es una máquina de estados, donde comienza en **AVANZAR** el cual va en linea recta, hasta que el láser detecta una distancia menor a la distancia de seguridad, cuando eso ocurre entra al estado **GIRAR** donde he usado la librería **random** donde he randomizado dos parámetros: 
+Es una máquina de estados, donde comienza en **AVANZAR** el cual va en linea recta, hasta que el láser detecta una distancia menor a la distancia de seguridad, cuando eso ocurre entra al estado **RETROCEDER** donde retrocede durante un tiempo un poco menos de 1 segundo (40 pasos en contador = 0,8 seg aprox. Ya que la frecuencia del tick es de 50Hz) y por último transcurrido ese tiempo, comeinza el estado  **GIRAR** donde he usado la librería **random** donde he randomizado dos parámetros: 
 
-**1. La velocidad angular 
-2. El tiempo de giro (en forma de contador)**
+**1. La velocidad angular (desde -0.8 a 0.8)
+2. El tiempo de giro (desde 35 pasos a 125 pasos = de 0,7 a 2,5 seg, en forma de contador)**
 
-dando así lugar a muchas posibilidades para evitar que se quede atascado y recorre caminos distintos. Además de filtrar(evitando las lecturas negativas y NaN) y guardar las distancias del láser.
+dando así lugar a muchas posibilidades para evitar que se quede atascado y recorre caminos distintos volviendo así al estado **AVANZAR**. Además de filtrar(evitando las lecturas negativas y NaN) y guardar las distancias del láser.
