@@ -16,6 +16,10 @@ He hecho distintas pruebas y observado el resultado a distintos tiempos, calcula
 - Video Corto:
 
 
+https://github.com/user-attachments/assets/95ceb0c6-497f-40b6-a311-3a2d4f974862
+
+
+
 
 
 ## Detalles 
