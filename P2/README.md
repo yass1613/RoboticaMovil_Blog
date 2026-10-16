@@ -16,23 +16,29 @@ He hecho distintas pruebas, modificando las constantes del controlador y aumenta
 Después de los ajustes, he conseguido que dé **varias vueltas seguidas sin salirse a una velocidad constante de 10.2**. Las constantes utilizadas finalmente son:
 
 - **Kp = 0.0075**
-- **Ki = 0.000011**
-- **Kd = 0.0061**
+- **Ki = 0.00001**
+- **Kd = 0.007**
 - **Límite de la integral = 1000**
 
 También probé con una velocidad de **10.3**, pero perdió la línea, por lo que volví a **10.2** y comprobé que completaba varias vueltas correctamente.
 
 **Imagen del circuito:**
 
-[Añadir captura del coche en el circuito]
+<img width="332" height="186" alt="image" src="https://github.com/user-attachments/assets/dd5933b9-acda-4cab-9619-ac03f60e5963" />
+
 
 **Detección de la línea:**
 
-[Añadir captura de la máscara]
+<img width="961" height="275" alt="image" src="https://github.com/user-attachments/assets/9718f372-d559-4d1d-9c0c-6a3b28f70b28" />
+
 
 **Vídeo corto:**
 
-[Añadir vídeo del recorrido]
+
+
+https://github.com/user-attachments/assets/6601948b-3e60-4b4e-b860-44d91b69aa86
+
+
 
 ## Detalles
 
@@ -88,7 +94,7 @@ Para ajustar el comportamiento fui haciendo pruebas con distintas ganancias y ve
 
 Una vez encontré unas ganancias que funcionaban bien, las mantuve y aumenté la velocidad poco a poco. Con cada cambio comprobaba si mejoraba el tiempo y si conseguía completar varias vueltas sin perder la línea.
 
-Finalmente elegí **10.2**, ya que fue la mayor velocidad probada que completó varias vueltas correctamente con esta configuración. No significa que sea el máximo posible con otros ajustes, pero sí fue el mejor resultado de mis pruebas.
+Finalmente elegí **10.2**, ya que fue la mayor velocidad probada que completó varias vueltas correctamente con esta configuración. No significa que sea el máximo posible con otros ajustes, pero sí fue el mejor resultado de mis pruebas. T
 
 ### Pérdida de la línea
 
