@@ -20,17 +20,9 @@ He hecho distintas pruebas cambiando la intensidad de las fuerzas y observando l
 
 Después de ajustar la fuerza atractiva para que mantuviese una intensidad constante, en la prueba final el coche consiguió realizar el recorrido correctamente, evitando los obstáculos y sin los cambios de sentido que tenía antes.
 
-**Capturas del resultado:**
-
-<!-- Añadir aquí las capturas de la práctica 3. -->
-
 **Vídeo corto:**
 
-
-
-
-
-
+https://youtube.com/shorts/FDb9y5L2iyI?feature=share
 
 ## Detalles
 
