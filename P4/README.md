@@ -24,11 +24,16 @@ Al probar un destino lejano que requiere varios giros, he observado que en algun
 
 **Imagen del mapa y del destino seleccionado**
 
-<!-- Añadir aquí una captura de esta práctica con el taxi y el destino marcados. -->
+<img width="353" height="296" alt="Screenshot From 2026-11-19 11-38-16" src="https://github.com/user-attachments/assets/a5e6d061-5405-4e9d-a4f5-96e45cc4a5ba" />
+
 
 **Vídeo corto del funcionamiento**
 
-<!-- Añadir aquí el enlace al vídeo de navegación. -->
+
+
+https://github.com/user-attachments/assets/b962fe51-c1d3-4b69-a627-8d7e52f48361
+
+
 
 ## Detalles
 
